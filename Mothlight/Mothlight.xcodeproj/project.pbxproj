@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEEF3DAC271374A0A62E858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8730024E0202597CCCE8F6 /* ContentView.swift */; };
+		F6D5307A6D3E6D72885A5C61 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9307C46D035F10FDF5D93 /* GameViewModel.swift */; };
+		A1C05046D20D3F13574DD216 /* MothlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB640A565519B0FBA6567BF /* MothlightApp.swift */; };
+		F7346DC95D5478193A92F793 /* GameContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0135AE557F3D745C9E8CAA8 /* GameContainerView.swift */; };
+		F0B8B19B2630E23DFA524949 /* GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549844CB89ABD5137F64E44D /* GameOverOverlay.swift */; };
+		36D28ADDEAB8E8FD023BBA35 /* MenuOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FA546A05EB8B4F6372B8BC /* MenuOverlay.swift */; };
+		6797E56F5D679BD4689E2AD3 /* RootViewControllerReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1564AAF89DCEB78CE32E4FED /* RootViewControllerReader.swift */; };
+		D84C55456BFF8F2020BAAD77 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904207E8939554DB1306F5E9 /* GameSettings.swift */; };
+		05F6446DA4E334D0124C2EF6 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB939AF7B6CCFA643DC2C08 /* HapticService.swift */; };
+		C0E21B003DA1E750711BC81B /* HighScoreStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11B655A4B0E3D48AA81413 /* HighScoreStore.swift */; };
+		9555ACFAF8FA101004BABEC5 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF398F819D8ACB1A27222E2 /* SoundEngine.swift */; };
+		F6E2663980A782E09A99167B /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4F1A9B95FEECE3C5FF47 /* PurchaseManager.swift */; };
+		670F144871C6FF91CA578827 /* AdMobAdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E030C639F9BB1E892167BC /* AdMobAdService.swift */; };
+		A680A697B61AF2B5FFCDD797 /* AdServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A581349FFE64D5E6BA8E9C0 /* AdServing.swift */; };
+		DC889A9875E4D80A0B523DD9 /* PreviewAdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4EEC582867E8C58CA5839 /* PreviewAdService.swift */; };
+		EBAA87801BA682727CC9DD20 /* AppTrackingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965AFF464DC8466C157C2BFA /* AppTrackingCoordinator.swift */; };
+		3137C8FB5B1CE71B70DA79D8 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0F42A962B848FAE9187F2 /* GameCenterManager.swift */; };
+		7D5B71141DD052F3526A5F06 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB078DC25DA1E8894B58CC /* GameConfig.swift */; };
+		683BEC5D59EB64E8E4FDC38F /* MothlightGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80473904951E22396E8ABA26 /* MothlightGameScene.swift */; };
+		A47A1AB6DAE9E8235830F420 /* ProceduralNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E03EBE1C44B14CD8BD9913B /* ProceduralNodes.swift */; };
+		43AC8C178BF14CDCEEC5A4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F560F5179494C6C42DF88 /* Assets.xcassets */; };
+		232E6B68B8F81889E6278196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE613CCCDB65E53850DB92B4 /* LaunchScreen.storyboard */; };
+		1A2E51DD3DD02511DE78FA27 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EA95E6311E8A659EEF670EE6 /* PrivacyInfo.xcprivacy */; };
+		AE379B1234E0450C67DBD91F /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 50BADC2AA68350530C520D92 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D8730024E0202597CCCE8F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		ADF9307C46D035F10FDF5D93 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewModel.swift"; sourceTree = "<group>"; };
+		0EB640A565519B0FBA6567BF /* MothlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MothlightApp.swift"; sourceTree = "<group>"; };
+		F0135AE557F3D745C9E8CAA8 /* GameContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/GameContainerView.swift"; sourceTree = "<group>"; };
+		549844CB89ABD5137F64E44D /* GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/GameOverOverlay.swift"; sourceTree = "<group>"; };
+		41FA546A05EB8B4F6372B8BC /* MenuOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/MenuOverlay.swift"; sourceTree = "<group>"; };
+		1564AAF89DCEB78CE32E4FED /* RootViewControllerReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/RootViewControllerReader.swift"; sourceTree = "<group>"; };
+		904207E8939554DB1306F5E9 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/GameSettings.swift"; sourceTree = "<group>"; };
+		2FB939AF7B6CCFA643DC2C08 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/HapticService.swift"; sourceTree = "<group>"; };
+		7A11B655A4B0E3D48AA81413 /* HighScoreStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/HighScoreStore.swift"; sourceTree = "<group>"; };
+		4BF398F819D8ACB1A27222E2 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/SoundEngine.swift"; sourceTree = "<group>"; };
+		31BF4F1A9B95FEECE3C5FF47 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/Monetization/PurchaseManager.swift"; sourceTree = "<group>"; };
+		D5E030C639F9BB1E892167BC /* AdMobAdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/Ads/AdMobAdService.swift"; sourceTree = "<group>"; };
+		1A581349FFE64D5E6BA8E9C0 /* AdServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/Ads/AdServing.swift"; sourceTree = "<group>"; };
+		93F4EEC582867E8C58CA5839 /* PreviewAdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/Ads/PreviewAdService.swift"; sourceTree = "<group>"; };
+		965AFF464DC8466C157C2BFA /* AppTrackingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/Tracking/AppTrackingCoordinator.swift"; sourceTree = "<group>"; };
+		DAD0F42A962B848FAE9187F2 /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/GameCenter/GameCenterManager.swift"; sourceTree = "<group>"; };
+		F9DB078DC25DA1E8894B58CC /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/GameConfig.swift"; sourceTree = "<group>"; };
+		80473904951E22396E8ABA26 /* MothlightGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/MothlightGameScene.swift"; sourceTree = "<group>"; };
+		1E03EBE1C44B14CD8BD9913B /* ProceduralNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/ProceduralNodes.swift"; sourceTree = "<group>"; };
+		402F560F5179494C6C42DF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		DE613CCCDB65E53850DB92B4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		EA95E6311E8A659EEF670EE6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		FEA2597118FED460289ECC76 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		F5BF48AA40CAD7891EB709FC /* Mothlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mothlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE379B1234E0450C67DBD91F /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* Mothlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5386A2EAF0036C0154CF9012 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				FEA2597118FED460289ECC76 /* Products.storekit */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		455BEB8A882CE8B1EFE00FEF /* Mothlight */ = {
+			isa = PBXGroup;
+			children = (
+								0D8730024E0202597CCCE8F6 /* ContentView.swift */,
+				ADF9307C46D035F10FDF5D93 /* GameViewModel.swift */,
+				0EB640A565519B0FBA6567BF /* MothlightApp.swift */,
+				F0135AE557F3D745C9E8CAA8 /* GameContainerView.swift */,
+				549844CB89ABD5137F64E44D /* GameOverOverlay.swift */,
+				41FA546A05EB8B4F6372B8BC /* MenuOverlay.swift */,
+				1564AAF89DCEB78CE32E4FED /* RootViewControllerReader.swift */,
+				904207E8939554DB1306F5E9 /* GameSettings.swift */,
+				2FB939AF7B6CCFA643DC2C08 /* HapticService.swift */,
+				7A11B655A4B0E3D48AA81413 /* HighScoreStore.swift */,
+				4BF398F819D8ACB1A27222E2 /* SoundEngine.swift */,
+				31BF4F1A9B95FEECE3C5FF47 /* PurchaseManager.swift */,
+				D5E030C639F9BB1E892167BC /* AdMobAdService.swift */,
+				1A581349FFE64D5E6BA8E9C0 /* AdServing.swift */,
+				93F4EEC582867E8C58CA5839 /* PreviewAdService.swift */,
+				965AFF464DC8466C157C2BFA /* AppTrackingCoordinator.swift */,
+				DAD0F42A962B848FAE9187F2 /* GameCenterManager.swift */,
+				F9DB078DC25DA1E8894B58CC /* GameConfig.swift */,
+				80473904951E22396E8ABA26 /* MothlightGameScene.swift */,
+				1E03EBE1C44B14CD8BD9913B /* ProceduralNodes.swift */,
+				402F560F5179494C6C42DF88 /* Assets.xcassets */,
+				DE613CCCDB65E53850DB92B4 /* LaunchScreen.storyboard */,
+				EA95E6311E8A659EEF670EE6 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Mothlight;
+			sourceTree = "<group>";
+		};
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				455BEB8A882CE8B1EFE00FEF /* Mothlight */,
+				5386A2EAF0036C0154CF9012 /* Configuration */,
+				0A2C978E52A76F0AA9F68BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Mothlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "Mothlight" */;
+			buildPhases = (
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mothlight;
+			packageProductDependencies = (
+				50BADC2AA68350530C520D92 /* GoogleMobileAds */,
+			);
+			productName = Mothlight;
+			productReference = F5BF48AA40CAD7891EB709FC /* Mothlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DD445E777372328CDC08F332 /* Build configuration list for PBXProject "Mothlight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			packageReferences = (
+				64528479797356D319055074 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 0A2C978E52A76F0AA9F68BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Mothlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC8C178BF14CDCEEC5A4C2 /* Assets.xcassets in Resources */,
+				232E6B68B8F81889E6278196 /* LaunchScreen.storyboard in Resources */,
+				1A2E51DD3DD02511DE78FA27 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEF3DAC271374A0A62E858 /* ContentView.swift in Sources */,
+				F6D5307A6D3E6D72885A5C61 /* GameViewModel.swift in Sources */,
+				A1C05046D20D3F13574DD216 /* MothlightApp.swift in Sources */,
+				F7346DC95D5478193A92F793 /* GameContainerView.swift in Sources */,
+				F0B8B19B2630E23DFA524949 /* GameOverOverlay.swift in Sources */,
+				36D28ADDEAB8E8FD023BBA35 /* MenuOverlay.swift in Sources */,
+				6797E56F5D679BD4689E2AD3 /* RootViewControllerReader.swift in Sources */,
+				D84C55456BFF8F2020BAAD77 /* GameSettings.swift in Sources */,
+				05F6446DA4E334D0124C2EF6 /* HapticService.swift in Sources */,
+				C0E21B003DA1E750711BC81B /* HighScoreStore.swift in Sources */,
+				9555ACFAF8FA101004BABEC5 /* SoundEngine.swift in Sources */,
+				F6E2663980A782E09A99167B /* PurchaseManager.swift in Sources */,
+				670F144871C6FF91CA578827 /* AdMobAdService.swift in Sources */,
+				A680A697B61AF2B5FFCDD797 /* AdServing.swift in Sources */,
+				DC889A9875E4D80A0B523DD9 /* PreviewAdService.swift in Sources */,
+				EBAA87801BA682727CC9DD20 /* AppTrackingCoordinator.swift in Sources */,
+				3137C8FB5B1CE71B70DA79D8 /* GameCenterManager.swift in Sources */,
+				7D5B71141DD052F3526A5F06 /* GameConfig.swift in Sources */,
+				683BEC5D59EB64E8E4FDC38F /* MothlightGameScene.swift in Sources */,
+				A47A1AB6DAE9E8235830F420 /* ProceduralNodes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3362C1320C74E322A913FD7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D13DB117F0B8E9E35DDFDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD3D678E6D5237127FC80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Mothlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poulsbo.mothlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2AE38601C6A0C412C0BF21D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Mothlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poulsbo.mothlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD445E777372328CDC08F332 /* Build configuration list for PBXProject "Mothlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362C1320C74E322A913FD7D /* Debug */,
+				D13DB117F0B8E9E35DDFDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "Mothlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD3D678E6D5237127FC80FA /* Debug */,
+				2AE38601C6A0C412C0BF21D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64528479797356D319055074 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50BADC2AA68350530C520D92 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64528479797356D319055074 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
