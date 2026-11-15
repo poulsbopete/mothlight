@@ -1,9 +1,10 @@
 # Privacy Policy — Mothlight
 
 **Last updated:** November 13, 2026  
-**Contact:** privacy@YOUR_DOMAIN.com (replace with your email)
+**Contact:** privacy@poulsbopete.com  
+**Hosted URL:** https://poulsbopete.github.io/mothlight/privacy.html
 
-Mothlight (“the app”) is published by Peter Poulsbo (“we”, “us”). This policy explains what data the app processes.
+Mothlight (“the app”) is published by Peter Simkins (“we”, “us”). This policy explains what data the app processes.
 
 ## Summary
 

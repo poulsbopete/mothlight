@@ -115,6 +115,7 @@
 				402F560F5179494C6C42DF88 /* Assets.xcassets */,
 				DE613CCCDB65E53850DB92B4 /* LaunchScreen.storyboard */,
 				EA95E6311E8A659EEF670EE6 /* PrivacyInfo.xcprivacy */,
+				5386A2EAF0036C0154CF9012 /* Configuration */,
 			);
 			path = Mothlight;
 			sourceTree = "<group>";
@@ -123,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				455BEB8A882CE8B1EFE00FEF /* Mothlight */,
-				5386A2EAF0036C0154CF9012 /* Configuration */,
 				0A2C978E52A76F0AA9F68BB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XW3XC2SVZU;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Mothlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XW3XC2SVZU;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Mothlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,7 +341,7 @@
 			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 11.0.0;
+				minimumVersion = 12.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
