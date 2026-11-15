@@ -1,47 +1,57 @@
 # Privacy Policy — Mothlight
 
-**Last updated:** November 13, 2026  
+**Last updated:** November 15, 2026  
 **Contact:** privacy@poulsbopete.com  
 **Hosted URL:** https://poulsbopete.github.io/mothlight/privacy.html
 
-Mothlight (“the app”) is published by Peter Simkins (“we”, “us”). This policy explains what data the app processes.
+**Mothlight: Seek Light** (“the app”) is published by Peter Simkins (“we”, “us”). This policy describes what information the app processes and how advertising and purchases work.
 
-## Summary
+## In short
 
-- We do **not** require an account.
-- Game scores and settings are stored **on your device**.
-- If you play the free version, **Google AdMob** may show ads and collect data as described in [Google’s Privacy Policy](https://policies.google.com/privacy).
-- On iOS 14.5+, we may ask for **App Tracking Transparency** permission so ads can be more relevant. You can decline and still play.
-- The **Remove Ads** purchase is processed by Apple; we do not receive your payment card details.
+- No account is required.
+- Scores and settings stay on your device.
+- We do not run our own analytics or user database.
+- The free version may show ads via Google AdMob.
+- You can decline tracking and still play.
+- **Remove Ads** is billed by Apple; we never see your card details.
 
 ## Data stored on your device
 
-- High score and game preferences (sound, haptics)
+The app uses on-device storage (such as UserDefaults) for:
+
+- High score and gameplay preferences (for example sound and haptics)
 - Whether you purchased **Remove Ads**
-- Whether the tracking permission prompt was shown
+- Whether the App Tracking Transparency prompt has been shown
 
-This data is not transmitted to our servers.
+This information is not sent to servers we operate.
 
-## Advertising
+## Advertising (AdMob)
 
-When ads are enabled, AdMob may collect device identifiers, coarse location derived from IP, and ad interaction data to serve and measure ads. After you buy **Remove Ads**, interstitial and rewarded ads are disabled in the app.
+When ads are enabled, Google AdMob may collect and process information such as device advertising identifiers, IP-based coarse location, and ad interaction data to serve and measure ads. That processing is governed by [Google’s Privacy Policy](https://policies.google.com/privacy) and AdMob’s [partner practices](https://support.google.com/admob/answer/6128543).
+
+On iOS 14.5 and later we may request permission under **App Tracking Transparency** so personalized ads can be shown. You can decline; the app still works, and ads may be less relevant.
+
+After you buy **Remove Ads**, interstitial and rewarded ads are turned off in the app.
 
 ## In-app purchases
 
-Purchases are handled by Apple’s App Store. We receive only confirmation that you own the **Remove Ads** product so the app can turn off ads.
+Purchases are processed by Apple through the App Store. We receive confirmation that you own the **Remove Ads** product so the app can disable ads. We do not receive your payment card number or full billing profile. See [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/).
 
-## Game Center (optional)
+## What we do not collect
 
-If enabled in a future update, scores may be sent to Apple’s Game Center service under Apple’s privacy terms.
+- No account registration or login
+- No email address or phone number from gameplay
+- No photos, contacts, or microphone access for game features
+- No first-party analytics backend operated by us
 
 ## Children
 
-The app is suitable for general audiences and does not knowingly collect personal information from children.
+The app is intended for a general audience. We do not knowingly collect personal information from children. If you believe a child has provided personal information through a third-party ad network, contact us and we will help address it within our control.
 
 ## Changes
 
-We may update this policy. Material changes will be reflected by updating the “Last updated” date.
+We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after an update means you accept the revised policy.
 
 ## Contact
 
-Questions: **privacy@YOUR_DOMAIN.com**
+Questions: **privacy@poulsbopete.com**
